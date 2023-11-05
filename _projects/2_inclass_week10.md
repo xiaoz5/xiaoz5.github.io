@@ -1,8 +1,8 @@
 ---
 name: Example in Class
 tools: [Python, HTML, vega-lite]
-image: assets/pngs/cars.png
-description: This is a "showcase" project that uses vega-lite for interactive viz!
+image: assets/pngs/interactive_legend.png
+description: Ongoing example!
 custom_js:
   - vega.min
   - vega-lite.min
@@ -13,17 +13,35 @@ custom_js:
 
 # Example including vega-lite
 
-Example comes from this [great blog post right here](https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html) that was also used in [our test import script](https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/blob/main/week01/test_imports_week01.ipynb).
-
-We can use a vegachart HTML tag like so:
-
-```
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
-```
+Example that came with the template:
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
 
-In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
+## From the vega-editor
+
+Simple barplot secification: 
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/firstViz_take2.json" style="width: 100%"></vegachart>
+
+Something more complex with interactivity.
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/interactive_legend.json" style="width: 100%"></vegachart>
+
+
+## From a dictionary in Altair in Python
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/chart1.json" style="width: 100%"></vegachart>
+
+
+## Side by side Static Mobility Dashboard in Python
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/static_mobility_dashboard.json" style="width: 100%"></vegachart>
+
+
+
+## Side by side with 'from_dirc' Function
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/side_by_side_from_dict.json" style="width: 100%"></vegachart>
 
 
 <!-- these are written in a combo of html and liquid --> 
