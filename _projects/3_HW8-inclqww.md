@@ -1,5 +1,5 @@
 ---
-name: Example in Class
+name: HW.8
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/interactive_legend.png
 description: Ongoing example!
@@ -26,32 +26,6 @@ Simple barplot secification:
 Something more complex with interactivity.
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/interactive_legend.json" style="width: 100%"></vegachart>
-
-
-## From a dictionary in Altair in Python
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/chart1.json" style="width: 100%"></vegachart>
-
-
-### Side by side Static Mobility Dashboard in Python
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/static_mobility_dashboard.json" style="width: 100%"></vegachart>
-
-
-
-### Side by side with 'from_dirc' Function
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/side_by_side_from_dict.json" style="width: 100%"></vegachart>
-
-
-## Quick aside into Altair-only plots
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/population_scatter.json" style="width: 100%"></vegachart>
-
-
-## Side-by-side, interactive using Altair syntax
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/side_by_side_mobility_url.json" style="width: 100%"></vegachart>
 
 
 ## Side-by-side, interactive using Alair syntax, local data
