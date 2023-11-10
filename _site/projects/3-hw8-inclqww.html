@@ -22,17 +22,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Example in Class">
-  <meta property="og:description" content="Ongoing example!">
-  <meta property="og:image" content="assets/pngs/interactive_legend.png">
+  <meta property="og:title" content="IS 445 Data Visualization Hw.8">
+  <meta property="og:description" content="IS 445 Data Visualization Hw.8!">
+  <meta property="og:image" content="assets/pngs/side_by_side_building_inventory.png">
 
-  <title>Example in Class</title>
-  <meta name="description" content="Ongoing example!">
+  <title>IS 445 Data Visualization Hw.8</title>
+  <meta name="description" content="IS 445 Data Visualization Hw.8!">
 
-  <link rel="shortcut icon" type="image/x-icon" href="/online_cv_public/assets/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
   <!-- Theme style -->
-  <script src="/online_cv_public/assets/js/theme.js"></script>
+  <script src="/assets/js/theme.js"></script>
 
   <!-- Font Awesome CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
@@ -44,7 +44,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="/online_cv_public/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
 
 </head>
 
@@ -53,18 +53,18 @@
   <main class="flex-shrink-0 container mt-5">
     <nav class="navbar navbar-expand-lg navbar-themed">
 
-  <a class="navbar-brand" href="/online_cv_public/"><h5><b>Xiao Z's Project</b></h5></a>
+  <a class="navbar-brand" href="/"><h5><b>Xiao Z's Project</b></h5></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-1x fa-bars text-themed"></i>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/online_cv_public/projects/">Projects</a>
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
 
-      <a class="nav-item nav-link " href="/online_cv_public/blog/">Blog</a>
+      <a class="nav-item nav-link " href="/blog/">Blog</a>
 
-      <a class="nav-item nav-link " href="/online_cv_public/about/">About</a>
+      <a class="nav-item nav-link " href="/about/">About</a>
 
       
 
@@ -74,49 +74,17 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  <h1 id="example-including-vega-lite">Example including vega-lite</h1>
+  <h1 id="building-inventory-side-by-side-interactive-visualization">Building Inventory Side-by-side Interactive Visualization</h1>
 
-<p>Example that came with the template:</p>
+<p>This interactive data visualization, created using Altair and Pandas, offers a dynamic exploration of building inventory data:</p>
 
-<vegachart schema-url="/online_cv_public/assets/json/cars.json" style="width: 100%"></vegachart>
+<vegachart schema-url="/assets/json/side_by_side_building_inventory.json" style="width: 100%"></vegachart>
 
-<h2 id="from-the-vega-editor">From the vega-editor</h2>
-
-<p>Simple barplot secification:</p>
-
-<vegachart schema-url="/online_cv_public/assets/json/firstViz_take2.json" style="width: 100%"></vegachart>
-
-<p>Something more complex with interactivity.</p>
-
-<vegachart schema-url="/online_cv_public/assets/json/interactive_legend.json" style="width: 100%"></vegachart>
-
-<h2 id="from-a-dictionary-in-altair-in-python">From a dictionary in Altair in Python</h2>
-
-<vegachart schema-url="/online_cv_public/assets/json/chart1.json" style="width: 100%"></vegachart>
-
-<h3 id="side-by-side-static-mobility-dashboard-in-python">Side by side Static Mobility Dashboard in Python</h3>
-
-<vegachart schema-url="/online_cv_public/assets/json/static_mobility_dashboard.json" style="width: 100%"></vegachart>
+<p>By employing interactive elements like <span style="color: #C84113;font-weight: bold;">Brush Selection</span> and <span style="color: #C84113; font-weight: bold;">Dropdown Menus</span>, users can gain valuable insights into factors such as <span style="color: #C84113;font-weight: bold;">Square Footage, Year of Acquisition, Total Floors, and Building Status</span>. The visualizations include a heatmap displaying building counts based on total floors and acquisition years, and a scatter plot that focuses on square footage and acquisition years. Feel free to filter and select specific building statuses to customize their data exploration.</p>
 
 <h3 id="side-by-side-with-from_dirc-function">Side by side with ‘from_dirc’ Function</h3>
 
-<vegachart schema-url="/online_cv_public/assets/json/side_by_side_from_dict.json" style="width: 100%"></vegachart>
-
-<h2 id="quick-aside-into-altair-only-plots">Quick aside into Altair-only plots</h2>
-
-<vegachart schema-url="/online_cv_public/assets/json/population_scatter.json" style="width: 100%"></vegachart>
-
-<h2 id="side-by-side-interactive-using-altair-syntax">Side-by-side, interactive using Altair syntax</h2>
-
-<vegachart schema-url="/online_cv_public/assets/json/side_by_side_mobility_url.json" style="width: 100%"></vegachart>
-
-<h2 id="side-by-side-interactive-using-alair-syntax-local-data">Side-by-side, interactive using Alair syntax, local data</h2>
-
-<vegachart schema-url="/online_cv_public/assets/json/side_by_side_with_localdata.json" style="width: 100%"></vegachart>
-
-<h2 id="side-by-side-ineractive-using-altair-syntax-with-dropdown-state">Side-by-side, ineractive using Altair syntax, with dropdown ‘State’</h2>
-
-<vegachart schema-url="/online_cv_public/assets/json/side_by_side_with_dropdown.json" style="width: 100%"></vegachart>
+<vegachart schema-url="/assets/json/side_by_side_from_dict.json" style="width: 100%"></vegachart>
 
 <!-- these are written in a combo of html and liquid -->
 
@@ -179,13 +147,13 @@
 
 <!-- Custom page specific js files -->
   
-    <script src='/online_cv_public/assets/js/vega.min.js' type="text/javascript"></script>
+    <script src='/assets/js/vega.min.js' type="text/javascript"></script>
   
-    <script src='/online_cv_public/assets/js/vega-lite.min.js' type="text/javascript"></script>
+    <script src='/assets/js/vega-lite.min.js' type="text/javascript"></script>
   
-    <script src='/online_cv_public/assets/js/vega-embed.min.js' type="text/javascript"></script>
+    <script src='/assets/js/vega-embed.min.js' type="text/javascript"></script>
   
-    <script src='/online_cv_public/assets/js/justcharts.js' type="text/javascript"></script>
+    <script src='/assets/js/justcharts.js' type="text/javascript"></script>
   
 
 

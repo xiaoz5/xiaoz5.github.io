@@ -1,8 +1,8 @@
 ---
-name: HW.8
+name: IS 445 Data Visualization Hw.8
 tools: [Python, HTML, vega-lite]
-image: assets/pngs/interactive_legend.png
-description: Ongoing example!
+image: assets/pngs/side_by_side_building_inventory.png
+description: IS 445 Data Visualization Hw.8!
 custom_js:
   - vega.min
   - vega-lite.min
@@ -11,32 +11,18 @@ custom_js:
 ---
 
 
-# Example including vega-lite
+# Building Inventory Side-by-side Interactive Visualization
 
-Example that came with the template:
+This interactive data visualization, created using Altair and Pandas, offers a dynamic exploration of building inventory data:
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
-
-## From the vega-editor
-
-Simple barplot secification: 
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/firstViz_take2.json" style="width: 100%"></vegachart>
-
-Something more complex with interactivity.
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/interactive_legend.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/side_by_side_building_inventory.json" style="width: 100%"></vegachart>
 
 
-## Side-by-side, interactive using Alair syntax, local data
+By employing interactive elements like <span style="color: #C84113;font-weight: bold;">Brush Selection</span> and <span style="color: #C84113; font-weight: bold;">Dropdown Menus</span>, users can gain valuable insights into factors such as <span style="color: #C84113;font-weight: bold;">Square Footage, Year of Acquisition, Total Floors, and Building Status</span>. The visualizations include a heatmap displaying building counts based on total floors and acquisition years, and a scatter plot that focuses on square footage and acquisition years. Feel free to filter and select specific building statuses to customize their data exploration.
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/side_by_side_with_localdata.json" style="width: 100%"></vegachart>
+### Side by side with 'from_dirc' Function
 
-
-## Side-by-side, ineractive using Altair syntax, with dropdown 'State'
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/side_by_side_with_dropdown.json" style="width: 100%"></vegachart>
-
+<vegachart schema-url="{{ site.baseurl }}/assets/json/side_by_side_from_dict.json" style="width: 100%"></vegachart>
 
 <!-- these are written in a combo of html and liquid --> 
 
