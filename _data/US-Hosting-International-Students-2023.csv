@@ -1,58 +1,58 @@
 States,State_Abbreviation,id,range
-Alabama,AL,1,5000
-Alaska,AK,2,1000
-Arizona,AZ,4,10000
-Arkansas,AR,5,5000
-California,CA,6,51000
-Colorado,CO,8,5000
-Connecticut,CT,9,10000
-Delaware,DE,10,1000
-District Of Columbia,DC,11,10000
-Florida,FL,12,10000
-Georgia,GA,13,10000
-Hawaii,HI,15,1000
-Idaho,ID,16,1000
-Illinois,IL,17,51000
-Indiana,IN,18,10000
-Iowa,IA,19,5000
-Kansas,KS,20,5000
-Kentucky,KY,21,5000
-Louisiana,LA,22,5000
-Maine,ME,23,1000
-Maryland,MD,24,10000
-Massachusetts,MA,25,51000
-Michigan,MI,26,10000
-Minnesota,MN,27,10000
-Mississippi,MS,28,1000
-Missouri,MO,29,10000
-Montana,MT,30,1000
-Nebraska,NE,31,1000
-Nevada,NV,32,1000
-New Hampshire,NH,33,1000
-New Jersey,NJ,34,10000
-New Mexico,NM,35,1000
-New York,NY,36,51000
-North Carolina,NC,37,10000
-North Dakota,ND,38,1000
-Ohio,OH,39,10000
-Oklahoma,OK,40,5000
-Oregon,OR,41,5000
-Pennsylvania,PA,42,10000
-Rhode Island,RI,44,4900
-South Carolina,SC,45,5000
-South Dakota,SD,46,1000
-Tennessee,TN,47,5000
-Texas,TX,48,51000
-Utah,UT,49,10000
-Vermont,VT,50,1000
-Virginia,VA,51,10000
-Washington,WA,53,10000
-West Virginia,WV,54,1000
-Wisconsin,WI,55,10000
-Wyoming,WY,56,1000
-American Samoa,AS,60,1000
-Guam,GU,66,1000
-Northern Mariana Islands,MP,69,1000
-Puerto Rico,PR,72,1000
-U.S. Minor Outlying Islands,UM,74,1000
-U.S. Virgin Islands,VI,78,1000
+Alabama,AL,1,5000-9999
+Alaska,AK,2,<=4999
+Arizona,AZ,4,10000-49999
+Arkansas,AR,5,5000-9999
+California,CA,6,>=50000
+Colorado,CO,8,5000-9999
+Connecticut,CT,9,10000-49999
+Delaware,DE,10,<=4999
+District Of Columbia,DC,11,10000-49999
+Florida,FL,12,10000-49999
+Georgia,GA,13,10000-49999
+Hawaii,HI,15,<=4999
+Idaho,ID,16,<=4999
+Illinois,IL,17,>=50000
+Indiana,IN,18,10000-49999
+Iowa,IA,19,5000-9999
+Kansas,KS,20,5000-9999
+Kentucky,KY,21,5000-9999
+Louisiana,LA,22,5000-9999
+Maine,ME,23,<=4999
+Maryland,MD,24,10000-49999
+Massachusetts,MA,25,>=50000
+Michigan,MI,26,10000-49999
+Minnesota,MN,27,10000-49999
+Mississippi,MS,28,<=4999
+Missouri,MO,29,10000-49999
+Montana,MT,30,<=4999
+Nebraska,NE,31,<=4999
+Nevada,NV,32,<=4999
+New Hampshire,NH,33,<=4999
+New Jersey,NJ,34,10000-49999
+New Mexico,NM,35,<=4999
+New York,NY,36,>=50000
+North Carolina,NC,37,10000-49999
+North Dakota,ND,38,<=4999
+Ohio,OH,39,10000-49999
+Oklahoma,OK,40,5000-9999
+Oregon,OR,41,5000-9999
+Pennsylvania,PA,42,10000-49999
+Rhode Island,RI,44,<=4999
+South Carolina,SC,45,5000-9999
+South Dakota,SD,46,<=4999
+Tennessee,TN,47,5000-9999
+Texas,TX,48,>=50000
+Utah,UT,49,10000-49999
+Vermont,VT,50,<=4999
+Virginia,VA,51,10000-49999
+Washington,WA,53,10000-49999
+West Virginia,WV,54,<=4999
+Wisconsin,WI,55,10000-49999
+Wyoming,WY,56,<=4999
+American Samoa,AS,60,<=4999
+Guam,GU,66,<=4999
+Northern Mariana Islands,MP,69,<=4999
+Puerto Rico,PR,72,<=4999
+U.S. Minor Outlying Islands,UM,74,<=4999
+U.S. Virgin Islands,VI,78,<=4999
